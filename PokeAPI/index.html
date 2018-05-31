@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+
+  <title>Pokemon Profile</title>
+
+</head>
+<body>
+  <div class="container">
+    <div id="searchBar" class="flow-text z-depth-2">
+    <div class="row">
+      <div class="col s8">
+        <div class="input-field s8">
+          <input type="text" id="pokeName" class="validate">
+          <label class="flow-text" for="pokeNumber">Search any Pokemon by Name or Number!</label>
+        </div>
+      </div>
+      <div class="col s2">
+        <button id="submitButton" class="btn waves-effect waves-light red" type="submit" onclick="findPokemon()" href="javascript:;">Go!</button>
+      </div>
+      <div class="col s2">
+        <button id="helpButton" class="btn waves-effect waves-dark white black-text modal-trigger" data-target="helpModal" href="#helpModal">Help</button>
+      </div>
+    </div>
+    </div>
+
+    <div id="helpModal" class="modal">
+      <div class="modal-content">
+        <h4>How to Use this Web App</h4>
+        <p>
+          This web app uses the fan made <a href="https://pokeapi.co/">Pokemon API</a> to grab data about various Pokemon and display their base statistics with the <a href="https://developers.google.com/chart/">Google Charts API</a>. If you are not familiar with Pokemon, try entering a number from 1 - 803 (the total number of pokemon). A few of my favorites are Jirachi, Mew, and of course Pikachu. <br><br>
+          If for some reason this web app is not working for you, it's likely because there is a CORS Error. This is because I haven't made a proxy server or functional equivalent yet. To bypass this issue, I reccomend that you download a CORS Chrome Extension <a href="https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en">here</a>. ONLY ENABLE IT WHEN YOU'RE EITHER DEVELOPING WEB APPS OR MAKING CORS REQUESTS, it will mess up some websites if you dont. Feel free to modify this program and push it to Github. I'd love to see what you make! This project is not yet completed, so stick around for more updates!
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+      </div>
+   </div>
+
+    <div class="row">
+      <div class="col s12" id="content">
+
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      <div class="row">
+        <div class="col">
+          <p>Created & Coded by <a href="http://www.daniyebartell.com/">Daniye Bartell</a>, 2018 || <a href="https://www.linkedin.com/in/daniye-bartell-063722162/">Linkedin</a> || <a href="https://www.github.com/dsbartell">Github</a> || Contact me at daniyebartells@gmail.com || Powered by <a href="https://pokeapi.co/">Poke API</a> || <a href="#searchBar">Back to Top</a></p>
+        </div>
+      </div>
+    </footer>
+</div>
+</body>
+</html>

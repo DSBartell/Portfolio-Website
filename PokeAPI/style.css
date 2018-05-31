@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Kreon');
+
+#searchBar
+{
+  margin-top:25px;
+  background-color:#f4f4f4;
+  width: 100%;
+  overflow: hidden;
+}
+
+#submitButton
+{
+  margin-top: 25px;
+}
+
+#helpButton
+{
+  margin-top: 25px;
+  margin-left: auto;
+  min-height: 36px;
+  height: auto;
+}
+
+.pokeCard
+{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 20px;
+  width: 70%;
+  background-color: #f4f4f4;
+}
+
+.pokeCard p
+{
+  font-family: Verdana;
+  font-size: 1em;
+}
+
+.pokeCard img:hover
+{
+  transform: scale(2.5);
+  transition: 1s;
+  z-index: 1000;
+}
+
+#pokeball
+{
+  padding: 10px;
+}
+
+#pokeball:hover
+{
+  transform: scale(1);
+}
+
+.pokeCard ul
+{
+  font-family: Verdana;
+  font-size: 1em;
+}
+
+h1
+{
+  text-transform: capitalize;
+  font-family: 'Kreon', serif;
+  filter: drop-shadow(3px 3px  5px darkgray);
+  width: 100%;
+}
+
+/* Typing specific styles */
+.psychic
+{
+  border: 3px solid #f73c74;
+}
+
+.bug
+{
+  border: 3px solid #9fae1f;
+}
+
+.dragon
+{
+  border: 3px solid #672cf5;
+}
+
+.ice
+{
+  border: 3px solid #75caca;
+}
+
+.fighting
+{
+  border: 3px solid #a82a23;
+}
+
+.fire
+{
+  border: 3px solid #e5711d;
+}
+
+.flying
+{
+  border: 3px solid #a38ce5;
+}
+
+.grass
+{
+  border: 3px solid #6bba44;
+}
+
+.ghost
+{
+  border: 3px solid #654f89;
+}
+
+.ground
+{
+  border: 3px solid #d7af3e;
+}
+
+.electric
+{
+  border: 3px solid #f1c30d;
+}
+
+.normal
+{
+  border: 3px solid #a1a171;
+}
+
+.poison
+{
+  border: 3px solid #953c95;
+}
+
+.rock
+{
+  border: 3px solid #a89333;
+}
+
+.water
+{
+  border: 3px solid #4274ec;
+}
+
+.dark
+{
+  border: 3px solid #6a5344;
+}
+
+.steel
+{
+  border: 3px solid #a1a1c1;
+}
+
+.fairy
+{
+  border: 3px solid #e589e5;
+}
+
+.dual-type
+{
+  border: 3px solid #555;
+}
+
+footer a
+{
+  color: yellow;
+}

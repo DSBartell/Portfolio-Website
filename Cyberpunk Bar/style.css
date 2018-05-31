@@ -1,0 +1,126 @@
+body, html
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+#navbar
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  z-index: 1;
+  overflow: hidden;
+  margin: 0;
+  padding: 10;
+  filter:drop-shadow(0 5px 15px black);
+}
+#navbar-menu {
+  width: max-content;
+  margin: 0 auto;
+}
+#navbar-menu li
+{
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  font-size: 25px;
+  margin: 0;
+  padding: 0 40px;
+  color: white;
+}
+
+#open-button
+{
+  color: white;
+  font-size: 50px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+#open-button:hover
+{
+  color: #666;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4
+{
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+/*   fixed = parallax, scroll = normal */
+  background-attachment: fixed;
+}
+
+.pimg1
+{
+  background-image:url('https://i.imgur.com/bHJ4vHL.jpg?1');
+  margin-top: 100px;
+  min-height: 100%;
+}
+
+.pimg2
+{
+  background-image:url('https://images.pexels.com/photos/338711/pexels-photo-338711.jpeg?cs=srgb&dl=alcohol-alcoholic-alcoholic-beverage-338711.jpg&fm=jpg');
+  min-height: 400px;
+}
+
+.pimg3
+{
+  background-image:url('https://images.pexels.com/photos/156114/pexels-photo-156114.jpeg?cs=srgb&dl=beef-bread-burger-156114.jpg&fm=jpg');
+  min-height: 400px;
+}
+
+.pimg4
+{
+  background-image:url('https://images.pexels.com/photos/696218/pexels-photo-696218.jpeg?cs=srgb&dl=adult-bar-blur-696218.jpg&fm=jpg');
+  min-height: 400px;
+}
+
+.section
+{
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light
+{
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section-dark
+{
+  background-color: #282E34;
+  color: #DDD;
+}
+
+.ptext
+{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 32px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border
+{
+  background-color: #111;
+  color: white;
+  padding: 20px;
+}
